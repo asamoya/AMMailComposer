@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 12 and later
 
 ## Installation
 
@@ -20,9 +21,21 @@ it, simply add the following line to your Podfile:
 pod 'AMMailComposer'
 ```
 
+## Usage
+
+#### Informatio property list
+Add 'mailto' value to LSApplicatioQueriesSchemes key in informatio property list.
+
+#### Launch composer
+``` Swift
+MailComposer.shared.compose(in: ViewController.self, to: "xxx@gmail.com")
+```
+See attached sample project for more detail.
+
+
 ## Author
 
-asamoya, kaname.ohara@gmail.com
+kaname surya, kaname.ohara@gmail.com
 
 ## License
 
