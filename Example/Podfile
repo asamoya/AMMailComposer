@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMMailComposer_Example' do
+  pod 'AMMailComposer', :path => '../'
+
+  target 'AMMailComposer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
