@@ -1,0 +1,6 @@
+framework module AMMailComposer {
+  umbrella header "AMMailComposer-umbrella.h"
+
+  export *
+  module * { export * }
+}

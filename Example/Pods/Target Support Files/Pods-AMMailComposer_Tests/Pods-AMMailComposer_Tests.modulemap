@@ -1,0 +1,6 @@
+framework module Pods_AMMailComposer_Tests {
+  umbrella header "Pods-AMMailComposer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

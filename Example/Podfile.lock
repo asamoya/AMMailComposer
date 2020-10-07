@@ -1,0 +1,16 @@
+PODS:
+  - AMMailComposer (0.1.0)
+
+DEPENDENCIES:
+  - AMMailComposer (from `../`)
+
+EXTERNAL SOURCES:
+  AMMailComposer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMMailComposer: a59aed5f69a553014aa955c9f62ad1a34cd5c1df
+
+PODFILE CHECKSUM: d12a34851d4900287fb5e88dcfc13d5289c8de71
+
+COCOAPODS: 1.9.3

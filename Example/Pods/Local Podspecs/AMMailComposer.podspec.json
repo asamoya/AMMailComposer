@@ -1,0 +1,22 @@
+{
+  "name": "AMMailComposer",
+  "version": "0.1.0",
+  "summary": "A short description of AMMailComposer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/asamoya/AMMailComposer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "asamoya": "kaname.ohara@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/asamoya/AMMailComposer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMMailComposer/Classes/**/*"
+}
