@@ -1,24 +1,16 @@
 //
-//  ViewController.swift
-//  AMMailComposer
-//
-//  Created by asamoya on 10/07/2020.
-//  Copyright (c) 2020 asamoya. All rights reserved.
+//  Copyright (c) 2020 kaname ohara. All rights reserved.
 //
 
 import UIKit
+import AMMailComposer
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction private func onClickComposeItem(_ sender: Any) {
+        // Note: remember add 'mailto' value to LSApplicationQueriesSchemes key in information property list
+        MailComposer.shared.compose(in: self, to: "kaname.ohara@gmail.com",
+                                    subject: "I have one Question",
+                                    body: "This is mail body.\r\n\r\nThank you.")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-

@@ -1,5 +1,5 @@
 PODS:
-  - AMMailComposer (0.1.0)
+  - AMMailComposer (0.0.1)
 
 DEPENDENCIES:
   - AMMailComposer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMMailComposer: a59aed5f69a553014aa955c9f62ad1a34cd5c1df
+  AMMailComposer: b6cb59f484580f7d54794cc183b0f9dad2863f0f
 
 PODFILE CHECKSUM: d12a34851d4900287fb5e88dcfc13d5289c8de71
 
